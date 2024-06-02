@@ -10,7 +10,7 @@
 
 <style>
  body {
-  font-family: 'Fira sans', sans-serif;
+  font-family: 'Fira sans', sans-serif, arial;
       background-color: rgb(83, 252, 83);
       margin: 0;
       padding: 0;

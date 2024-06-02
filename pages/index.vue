@@ -2,12 +2,12 @@
   <main>
     <h1>Hari ini mau ngapain aja ?</h1>
     <h2>Manage waktumu dengan lebih baik </h2>
-    
+
     <div class="create-new">
-      <input 
-        type="text" 
-        v-model="newTask" 
-        placeholder="Atur waktumu lebih baik" 
+      <input
+        type="text"
+        v-model="newTask"
+        placeholder="Atur waktumu lebih baik"
         @keypress.enter="addTask" />
       <button @click="addTask">Tambah</button>
     </div>
@@ -30,7 +30,7 @@
 export default {
   data (){
     return {
-      newTask: ''
+      newTask: ""
     }
   },
   methods: {
